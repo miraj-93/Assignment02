@@ -1,0 +1,345 @@
+
+body{
+    overflow-x: hidden;
+}
+.frst-bg-color{
+   background: linear-gradient(rgb(235, 223, 223),rgb(169, 179, 169),rgb(243, 243, 237));
+
+}
+
+
+.navbar{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    justify-items: center;
+}
+
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    
+}
+.logo-img{
+    width: 80px;
+    height: 80px;
+    margin:20px 0px 0px 65px;
+   
+   
+}
+
+
+.logo-title{
+    width: 350px;
+    height: 80px;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(231, 42, 136);
+    margin-left: 0%;
+}
+.logo-title:hover{
+    color: rgb(4, 50, 50);
+}
+.menu>ul{
+    display: flex;
+    margin: 10px;
+    list-style: none;
+
+}
+
+menu>ul>li{
+    list-style: none;
+    margin: 20px;
+}
+
+
+.menu>ul>li a{
+    text-decoration: none;
+    font-size: 16px;
+    margin: 10px;
+    padding: 15px;
+    color: rgb(1, 8, 14);
+}
+
+.menu>ul>li a:hover{
+    background-color: rgb(209, 182, 143);
+    
+}
+
+.contactbtn>button{
+    width: 200px;
+    height: 60px;
+    font-size:16px;
+    padding:10px;
+    background-color: rgb(232, 145, 58);
+    margin: 10px;
+    color: rgb(20, 19, 19);
+    border: none;
+    border-radius: 10px;
+}
+.contactbtn>button:hover{
+    background-color:rgb(215, 99, 215) ;
+}
+
+marquee{
+    color: rgb(78, 2, 15);
+    transition-duration: .2s;
+    width: 85%;
+}
+
+.btn{
+    background-color: black;
+    color: aliceblue;
+    padding: 10px;
+    width: 100px;
+    border-radius: 12px;
+    border: none;
+}
+.btn:hover{
+    background-color: rgb(110, 51, 165);
+
+    
+}
+.banner{
+    background-image:url(Images/bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 90%;
+    display: flex;
+    justify-items: center;
+    align-items:center ;
+    justify-content: space-evenly;
+    margin-left: 100px;
+}
+.banner>.bn-title{
+       width:50%;
+       font-size:20px ;
+ 
+
+}
+.banner>.hero{
+    width: 36%;
+    margin: 0 auto ;
+    
+}
+
+.Curriculum-title{
+ background-image:url(Images/bg.png);
+background-repeat: no-repeat;
+background-size:100%;
+text-align:center;
+font-size: 20px;
+font-weight: 400;
+width: 100%;
+}
+.curriculum{
+width: 100%;
+display: flex;
+justify-content: flex-start;
+justify-items: center;
+align-items: center;
+gap: 10px;
+/*background-color: rgb(218, 207, 194);*/
+}
+
+
+.card{
+    width: 40%;
+    height: 450px;
+    margin: 30px 20px;
+    padding: 10px;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 300;
+    background: linear-gradient(to right, rgb(220, 228, 225), rgb(166, 200, 173),rgb(233, 233, 243),rgb(241, 208, 202)); 
+}
+
+.card a{
+    text-decoration: none;
+}
+
+.btn-icon{
+    margin-top: 30px 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.b-icon{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(233, 184, 50);
+    border-radius: 50%;
+    justify-content: center;
+    text-align: center;
+    margin-left: 10PX;
+}
+.b-icon:hover{
+    background-color: rgb(153, 218, 196);
+    color: aliceblue;
+}
+.curri-title{
+    text-align: center;
+}
+.scnd-bg-color{
+    background-image: url(Images/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 10;
+    background : linear-gradient(rgb(247, 245, 245),rgb(236, 236, 217), rgb(249, 246, 246));
+  width: 100%;
+}
+
+.our-Stories{
+display: flex;
+justify-content: center;
+align-items: center;
+justify-items: center;
+width: 100%;
+height: auto;
+margin: 10px;
+
+}
+.first-story{
+   margin-right:10px 10px 20px 20px;
+   display: inline-flex;
+   width: 40%;
+   height: 700px;
+    background-color: aliceblue;
+ 
+}
+.first-story img{
+    width: 90%;
+    max-height:500px ;
+    margin: 20px 0px 0px 50px;
+    border-radius: 25px 25px 0px 0px;
+    
+}
+
+.four-stories{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+    width: 50%;
+    height: max-content;
+    
+   
+}
+.four-stories img{
+    width: 90%;
+    height:fit-content ;
+    margin: 10px 0px 0px 0px;
+    padding: 20px;
+
+
+}
+.four-stories .story{
+    width: 80%;
+    height: auto;
+    
+}
+.story-bg-color{
+    background-color: rgb(238, 247, 252);
+
+}
+.h-text-title{
+    font-size:2rem;
+    padding: 5px;
+    text-align:center;
+}
+.h-text{
+    width: 50%;
+    text-align:left;
+    font-size: 1rem;
+    padding: 10px;
+    margin-left: 50px;
+}
+
+.text{
+    width: 50%;
+    font-size: 0.8em;
+    text-align: left;
+    margin-left: 50px;
+}
+.btn-container{
+    position: relative; 
+  }
+.story-btn {
+    position: absolute; 
+    top: 5px; 
+    left: 10px; 
+    transform: translate(-0px, -45px);
+    background-color: #b2f6ee; 
+    border: none;
+    border-radius: 50px;
+    color: rgb(8, 8, 8);
+    padding: 10px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    cursor: pointer;
+    z-index: 1;
+  }
+.l-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(white,rgb(235, 228, 228),rgb(159, 159, 199));
+}
+.l-btn button{
+    width: 200px;
+    background-color: black;
+    color: azure;
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    
+}
+.l-btn button:hover{
+    background-color: rgb(117, 80, 152);
+
+}
+
+.footer{
+    background-color: rgb(45, 117, 117);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    justify-items: center;
+    height: 400px;
+
+}
+.footer-logo{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.logo-img{
+    width: 100px;
+    height: 100px;
+    margin-left: 0px;
+}
+
+
+.footer-link>ul{
+    list-style: none;
+
+}
+
+.footer-link>ul li a{
+    text-decoration:none;
+    font-family: Verdana, sans-serif;
+    font-size: 20px;
+    margin: 20px;
+    padding: 20px;
+}
