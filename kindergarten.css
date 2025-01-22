@@ -219,8 +219,8 @@ margin: 10px;
 .first-story{
    margin-right:10px 10px 20px 20px;
    display: inline-flex;
-   max-width: 40%;
-   max-height: 700px;
+   max-width: 100%;
+   height: 630px;
     background-color: aliceblue;
  
 }
@@ -583,8 +583,8 @@ width: max-content;
     .first-story{
        margin-right:10px 10px 20px 20px;
        display:none;
-       max-width: 40%;
-       max-height: 700px;
+       max-width: 100%;
+       max-height: 900px;
         background-color: aliceblue;
      
     }
